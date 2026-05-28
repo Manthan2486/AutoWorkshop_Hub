@@ -1,0 +1,131 @@
+*{
+  margin: 0%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+}
+.title{
+  margin-top: 30px;
+  text-align: center;
+  margin-left: 5px;
+  cursor:default;
+}
+.card1{
+  border-radius: 20px;
+  position: absolute;
+  background-color: #f6f6f6;
+  display: flex;
+  margin-top: 60px;
+  margin-left:  300px;
+  height: 600px;
+  width: 1000px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.card2{
+  border-radius: 20px 0 0 20px;
+  padding: 50px;
+  width: 50%;
+  height: 100%;
+ 
+}
+.card3{
+  border-radius: 0 20px 20px 0;
+  width: 50%;
+  align-content: center;
+  padding: 50px;
+   background-color: #4a4e69;
+   text-align: center;
+   color: #f6f6f6;
+}
+.img{
+  margin-top: 70px;
+  margin-left: 50px;
+  height: 300px;
+}
+.btn1{
+  background: none;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  width: 140px;
+  border-radius: 10px;
+  color: white;
+}
+
+
+.inputs{
+  margin-left: 70px;
+}
+
+.logininput{
+  border: 1px solid ;
+  border-radius: 5px;
+  height: 30px;
+  width: 80%;
+  outline: none;
+
+}
+.forgot{
+  font-size: small;
+  margin-left: 170px;
+  text-decoration: none;
+}
+.forgot:hover{
+  color: black;
+  border-bottom: 1px solid black;
+}
+.subbtn {
+  width: 80%;
+  height: 40px;
+  border: none;
+  border-radius: 12px;
+  background-color: #4a4e69;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: 0.3s;
+}
+
+.subbtn:hover {
+  background-color: #22223b;
+}
+.or{
+  margin-left: 80px;
+  margin-top: 10px;
+}
+/* Google Button */
+.googlebtn {
+  margin-top: 10px;
+  width: 80%;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background-color: white;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  font-size: 15px;
+  font-weight: 500;
+
+  transition: 0.3s;
+}
+
+.googlebtn img {
+  width: 22px;
+  height: 22px;
+}
+
+.googlebtn:hover {
+  background-color: #f5f5f5;
+}
